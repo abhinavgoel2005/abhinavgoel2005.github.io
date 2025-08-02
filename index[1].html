@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Goel | AIML Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0; font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333;
+    }
+    header, footer {
+      background: #111; color: #fff; padding: 1rem 2rem; text-align: center;
+    }
+    main { max-width: 960px; margin: auto; padding: 2rem; }
+    h1, h2 { color: #222; }
+    .section { margin-bottom: 3rem; }
+    .skills span {
+      background: #ddd; padding: 0.5rem 1rem; margin: 0.2rem; display: inline-block;
+      border-radius: 20px; font-size: 0.9rem;
+    }
+    .projects a {
+      display: block; margin-bottom: 1rem; font-weight: bold;
+      color: #0066cc; text-decoration: none;
+    }
+    .projects p { margin: 0.3rem 0 1.2rem; }
+    .btn {
+      background: #0066cc; color: #fff; padding: 0.7rem 1.5rem; border: none;
+      border-radius: 5px; cursor: pointer; text-decoration: none;
+    }
+    form input, form textarea {
+      width: 100%; padding: 0.7rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abhinav Goel</h1>
+    <p>AIML Student | ML Enthusiast</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>About Me</h2>
+      <p>A passionate Artificial Intelligence & Machine Learning student at GGSIPU. I enjoy solving real-world problems through ML, DL, and Data Science.</p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Numpy</span><span>Pandas</span><span>Seaborn</span><span>Matplotlib</span><span>Scikit-Learn</span><span>NLTK</span><span>ANN</span><span>CNN</span><span>Python</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <a href="https://github.com/abhinavgoel2005/Loan-Approval-Predictor" target="_blank">Loan Approval Predictor</a>
+        <p>Predicts loan eligibility using ML algorithms based on financial and personal data.</p>
+
+        <a href="https://github.com/abhinavgoel2005/Diabetes-Predictor" target="_blank">Diabetes Predictor</a>
+        <p>A machine learning model to predict diabetes risk based on medical attributes.</p>
+
+        <a href="https://github.com/abhinavgoel2005/cnn-image-generator" target="_blank">CNN Image Generator</a>
+        <p>Generates images using Convolutional Neural Networks and deep learning techniques.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Resume</h2>
+      <a class="btn" href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section class="section">
+      <h2>Contact Me</h2>
+      <form action="mailto:rabhigoyal31@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Abhinav Goel | <a href="https://www.linkedin.com/in/abhinav-pradeep-goel10" target="_blank" style="color: #0af">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
